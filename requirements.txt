@@ -1,0 +1,17 @@
+tensorflow==2.1.0
+numpy>=1.9.2
+scipy>=0.15.1
+keras== 2.3.1
+Flask==1.1.1
+itsdangerous==19.9.0
+jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.15
+matplotlib>=1.4.3
+pandas>=0.19
+PIL==1.1.6
+OpenCV>=3.4.11
+io==0.0.1
+base64==3.2.0
+os==15.0.0
+urllib==5.0.0
