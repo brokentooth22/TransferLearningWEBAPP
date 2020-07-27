@@ -10,7 +10,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 pillow==6.1.0
 opencv-python
-io
-base64
-os==15.0.0
 urllib==5.0.0
