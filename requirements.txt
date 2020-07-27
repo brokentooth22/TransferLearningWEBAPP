@@ -9,7 +9,7 @@ Werkzeug==0.15.6
 matplotlib>=1.4.3
 pandas>=0.19
 pillow==6.1.0
-OpenCV
+OpenCV==3.4.10
 io
 base64
 os==15.0.0
