@@ -148,8 +148,8 @@ def upload_image():
 				image.assign(tf.clip_by_value(image, clip_value_min=0.0, clip_value_max=1.0))
 
 		target_image = tf.Variable(content)
-		epochs = 1
-		steps_per_epoch = 1
+		epochs = 10
+		steps_per_epoch = 100
 		step = 0
 		for n in range(epochs):
 			for m in range(steps_per_epoch):
