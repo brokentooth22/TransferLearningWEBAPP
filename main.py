@@ -65,7 +65,7 @@ def upload_image():
 		style = load_image(app.config['UPLOAD_FOLDER']+filename2)
 		vgg = tf.keras.applications.VGG19(include_top=False, weights='imagenet')
 		vgg.trainable = False
-		content_layers = ['block1_conv1']
+		content_layers = ['block4_conv2']
 		style_layers = ['block1_conv1','block2_conv1','block3_conv1','block4_conv1','block5_conv1']
 		num_content_layers = len(content_layers)
 		num_style_layers = len(style_layers)
